@@ -1,15 +1,18 @@
 # Jest tests workshop
 
+## Introduction
+
 - Why do we test things?
 - What types of tests can you think of?
+- Testing [pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - [trophy](https://testingjavascript.com/) - [ice cream cone](https://watirmelon.blog/testing-pyramids/)
 
 ## Unit tests
 
 - Test small things (functions, components, classes)
 - Definition of what constitutes a "unit" is somewhat arbitrary
 - Generally test things in isolation
-- Often very coupled to the implementation / how code was written
-- Often quick to write, and run
+- Often very coupled to the implementation / how code was written – good an dbad
+- Often quick to write, and run (CI!)
 
 ## When to write unit tests
 
@@ -32,16 +35,18 @@
 
 ## What is Jest
 
-https://jestjs.io/
+[Jest docs: jestjs.io](https://jestjs.io/)
 
 - JS testing history: QUnit, Jasmine, Mocha, Chai
 - Istanbul, Babel
 
-https://github.com/smooth-code/jest-puppeteer
-https://github.com/americanexpress/jest-image-snapshot
-https://github.com/nickcolley/jest-axe
-https://airbnb.io/enzyme/
-https://github.com/jest-community/vscode-jest
+Jest ecosystem:
+
+- [https://github.com/smooth-code/jest-puppeteer](https://github.com/smooth-code/jest-puppeteer)
+- [https://github.com/americanexpress/jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot)
+- [https://github.com/nickcolley/jest-axe](https://github.com/nickcolley/jest-axe)
+- [https://airbnb.io/enzyme/](https://airbnb.io/enzyme/)
+- [https://github.com/jest-community/vscode-jest](https://github.com/jest-community/vscode-jest)
 
 ## Workshop
 
@@ -61,14 +66,16 @@ Also running in CI
 
 Coverage
 
-https://codecov.io/gh/wagtail/wagtail
-https://coveralls.io/github/springload/draftail
+- [CodeCov Wagtail](https://codecov.io/gh/wagtail/wagtail)
+- [Coveralls Draftail](https://coveralls.io/github/springload/draftail)
 
 ### Writing tests for JS code
 
-Fizzbuzz
+Open `src/fizzbuzz.js`.
 
 ### Writing tests for DOM code
+
+Open `src/video-modal.js`.
 
 ### Writing tests for React components
 

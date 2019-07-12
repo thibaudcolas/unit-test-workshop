@@ -1,26 +1,16 @@
 import fizzbuzz from "./fizzbuzz";
 
 describe("fizzbuzz", () => {
-  it("exists", () => {
-    expect(fizzbuzz).toBeDefined();
-  });
-
-  it("numbers", () => {
-    expect(fizzbuzz(1)).toBe("1");
-    expect(fizzbuzz(1)).toEqual("1");
-  });
-
   test("numbers", () => {
     expect(fizzbuzz(1)).toBe("1");
-    expect(fizzbuzz(1)).toEqual("1");
+    expect(fizzbuzz(8)).toBe("8");
   });
 
-  it.skip("fizzes", () => {});
-  it.skip("buzzes", () => {});
-  it.skip("fizzbuzzes", () => {});
-});
+  test.skip("multiples of 3 return fizz", () => {
+    expect(fizzbuzz(3)).toBe("Fizz");
+  });
 
-it("fizzbuzz numbers", () => {
-  expect(fizzbuzz(1)).toBe("1");
-  expect(fizzbuzz(1)).toEqual("1");
+  test.skip("multiples of 5 return buzz", () => {});
+
+  test.skip("multiples of 15 return FizzBuzz", () => {});
 });
