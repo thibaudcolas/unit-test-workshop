@@ -1,4 +1,8 @@
-# Jest tests workshop
+# Unit tests workshop – with Jest [<img src="https://raw.githubusercontent.com/thibaudcolas/unit-test-workshop/master/.github/jest-logo.svg?sanitize=true" width="90" height="90" align="right">](https://jestjs.io/)
+
+[![Build Status](https://travis-ci.com/thibaudcolas/unit-test-workshop.svg?branch=master)](https://travis-ci.com/thibaudcolas/unit-test-workshop)
+
+> Unit testing 101 workshop, in JavaScript with Jest (via [create-react-app](https://github.com/facebook/create-react-app)).
 
 ## Introduction
 
